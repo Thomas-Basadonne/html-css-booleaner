@@ -33,3 +33,21 @@ th, td{
     text-align: left;
     font-size: 15px;
 }
+#foto1{
+    color: aliceblue;
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 500px;
+
+}
+#foto2{
+    color: aliceblue;
+        background-image: url(./img/graph.jpg);
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 500px;
+}
+#info{
+    color: rgba(255, 255, 255, 0.5);
+}
