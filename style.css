@@ -1,22 +1,23 @@
 .banner{
+    background-image: url(./img/pattern.png);
     background-color: rgb(70, 70, 212);
     max-width: 100%;
     height: 100px;
 }
-#pattern{
-    width: 100%;
-    height: contain;
-}
-.banner #pattern{
-    border-width: 0; margin: 0; padding: 0; 
-    
-}
-.banner #logo{
-    border-width: 0; margin: 0;padding: 0;
-    position: absolute; top: 0; left: 0;
-    height: 100px;
-    width: 100px;
+#logo{
+    width: 150px;
+    height: auto;
+    position: relative;
+    top: 60px;
 }
 .descrizione{
     font-size: 12px;
+}
+.table{
+    table-layout: auto;
+    border-collapse: collapse;
+    border: 0px;
+}
+#thead{
+    background-color: rgb(18, 166, 246);
 }
