@@ -1,0 +1,18 @@
+.banner{
+    background-color: rgb(70, 70, 212);
+    max-width: 100%;
+    height: 100px;
+}
+#pattern{
+    width: 100%;
+    height: 100px;
+}
+.banner #pattern{
+    border-width: 0; margin: 0; padding: 0; 
+}
+.banner #logo{
+    border-width: 0; margin: 0;padding: 0;
+    position: absolute; bottom: 0; left: 0;
+    height: 100px;
+    width: 100px;
+}
