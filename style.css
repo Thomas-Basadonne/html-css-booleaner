@@ -10,14 +10,26 @@
     position: relative;
     top: 60px;
 }
+h1{
+    font-size: 40px;
+}
 .descrizione{
     font-size: 12px;
 }
-.table{
-    table-layout: auto;
+table{
+    width: 100%;
     border-collapse: collapse;
     border: 0px;
 }
 #thead{
     background-color: rgb(18, 166, 246);
+    color: aliceblue;
+}
+.celeste{
+    background-color: aqua;
+}
+th, td{
+    padding: 10px 30px;
+    text-align: left;
+    font-size: 15px;
 }
