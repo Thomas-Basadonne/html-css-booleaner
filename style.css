@@ -5,14 +5,18 @@
 }
 #pattern{
     width: 100%;
-    height: 100px;
+    height: contain;
 }
 .banner #pattern{
     border-width: 0; margin: 0; padding: 0; 
+    
 }
 .banner #logo{
     border-width: 0; margin: 0;padding: 0;
-    position: absolute; bottom: 0; left: 0;
+    position: absolute; top: 0; left: 0;
     height: 100px;
     width: 100px;
+}
+.descrizione{
+    font-size: 12px;
 }
